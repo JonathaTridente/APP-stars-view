@@ -1,27 +1,19 @@
 import React from 'react';
-import './App.css';
-import HelloWorld from './components/HelloWorld';
-import Links from './Links';
+import './components/ScreenLogin.css';
+import ScreenLogin from './components/ScreenLogin';
+
+
 function App() {
   return (
-    <>
-      <div>
-        <HelloWorld />
-      </div>
-      <div>
-        <HelloWorld />
-      </div>
-      <div>
-        <HelloWorld />
-      </div>
-      <div>
-        <HelloWorld />
-      </div>
-      <div className= "Links" >
-        <Links/>
-      </div>
-    </>
-  );
+    <div className="app">
+
+      <ScreenLogin/>
+ 
+   
+      
+    </div> 
+    
+  )
 }
 
 export default App;
