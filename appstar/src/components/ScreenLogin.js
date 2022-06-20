@@ -9,12 +9,15 @@ function ScreenLogin() {
     return (
 
         <div className="container">
+            
             <div className="container-login">
+                
                 <div className="wrap-login">
-                    <form className="login-form">
-                        <span>
+                <span>
                             < img src={applogo} className="App-logo" alt="logo" />
                         </span>
+                    <form className="login-form">
+                      
                         <span className="Login-form-tittle">Bem Vindo!</span>
 
 
