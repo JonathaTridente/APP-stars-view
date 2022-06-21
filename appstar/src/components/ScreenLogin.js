@@ -18,7 +18,7 @@ function ScreenLogin() {
                         </span>
                     <form className="login-form">
                       
-                        <span className="Login-form-tittle">Bem Vindo!</span>
+                        <span className="Login-form-tittle">Olá Observador!</span>
 
 
                         <div className="wrap-input">
@@ -48,7 +48,7 @@ function ScreenLogin() {
                         <div className="text-center">
                             <span className="txt1">Náo possui conta? </span>
 
-                            <a className="txt2" href="#">Criar Conta.</a>
+                            <a className="txt2" href="#">Criar.</a>
                         </div>
 
                     </form>
