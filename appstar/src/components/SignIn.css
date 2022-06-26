@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container-Main-SignIn{
+.container-Main-SignIn {
     width: 100%;
     margin: 0 auto;
 }
@@ -22,7 +22,7 @@
     background-color: rgb(17, 14, 63);
 }
 
-.wrap-SignIn {
+.WrapSign {
     width: 400px;
     background-color: rgb(29, 31, 37);
     border-radius: 20px;
@@ -41,7 +41,7 @@
     color: azure;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 
     margin-bottom: 10%;
     line-height: 1.2;
@@ -50,11 +50,11 @@
 
 
 
-.wrap-input {
+.WrapInputSign {
     width: 100%;
     position: relative;
     border-bottom: 2px solid #adadad;
-    margin-bottom: 37px;
+    margin-bottom: 35px;
 }
 
 .input {
@@ -86,7 +86,7 @@
     color: #adadad;
 }
 
-.focus-input::before{
+.focus-input::before {
     content: "";
     display: block;
     position: absolute;
@@ -99,7 +99,7 @@
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
-    
+
     background-color: linear-gradient(to left #b90000 #422d4d);
     background: -o-linear-gradient(to left, #b90000, #422d4d);
     background: -moz-linear-gradient(to left, #b90000, #422d4d);
@@ -107,7 +107,7 @@
 
 }
 
-.focus-input::after{
+.focus-input::after {
     font-size: 15px;
     color: #9999;
     line-height: 2;
@@ -123,7 +123,7 @@
 
     padding-left: 5px;
 
-    
+
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -141,13 +141,14 @@
     width: 100%;
 }
 
-.has-val + .focus-input::after {
+.has-val+.focus-input::after {
     top: -15px;
 }
 
-.has-val + .focus-input::before {
+.has-val+.focus-input::before {
     width: 100%;
-} 
+}
+
 .container-login-form-btn {
     display: flex;
     flex-wrap: wrap;
@@ -168,6 +169,7 @@
 
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
     width: 100%;
     height: 50px;
@@ -180,6 +182,13 @@
 
 .SignIn-form-btn:hover {
     cursor: pointer;
+
+    box-shadow: 0 5px #6b3135;
+    transform: translateY(4px);
+    background: -webkit-linear-gradient(to left, #b90000, #422d4d);
+    background: -o-linear-gradient(to left, #b90000, #422d4d);
+    background: -moz-linear-gradient(to left, #b90000, #422d4d);
+    background: linear-gradient(to left, #b90000, #422d4d);
 }
 
 .text-center {
@@ -191,21 +200,78 @@
 
 }
 
-.txt1 {
+
+
+
+
+
+.txt3 {
+    font: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-    color: #adadad;
-    line-height: 1.5;
-    padding-right: 5px;
-    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+    display: block;
 }
 
 
 
-.txt2 {
+.wrapImage { 
+
+background-color: rgb(151, 144, 238);
+border-radius: 25px;
+}
+
+
+.ImageFile {
+    background-color: #adadad;
+    border: #adadad;
+    background: #adadad;
+    display: block;
+    
+}
+
+
+
+.ImageSave {
+    border: #b90000;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    display: block;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 20px;
+
+
+    display: block;
     font-size: 14px;
-    color: #6a7dfe;
-    line-height: 1.5;
-    text-decoration: none;
+    background: -webkit-linear-gradient(to left, #b90000, #422d4d);
+    background: -o-linear-gradient(to left, #b90000, #422d4d);
+    background: -moz-linear-gradient(to left, #b90000, #422d4d);
+    background: linear-gradient(to left, #b90000, #422d4d);
+
+}
+
+
+.ImageSave:hover {
+    cursor: pointer;
+    box-shadow: 0 5px #6b3135;
+    transform: translateY(4px);
+    background: -webkit-linear-gradient(to left, #b90000, #422d4d);
+    background: -o-linear-gradient(to left, #b90000, #422d4d);
+    background: -moz-linear-gradient(to left, #b90000, #422d4d);
+    background: linear-gradient(to left, #b90000, #422d4d);
+
 }
 
 .App-logo {
@@ -215,6 +281,16 @@
     height: auto;
     padding: 70px;
 }
+
+.ApplogoSign {
+    display: left;
+    text-align: left;
+
+    width: 20%;
+    height: auto;
+    padding: 0px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {

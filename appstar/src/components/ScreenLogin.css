@@ -180,6 +180,12 @@
 
 .login-form-btn:hover {
     cursor: pointer;
+    box-shadow: 0 5px #6b3135;
+  transform: translateY(4px);
+  background: -webkit-linear-gradient(to left, #b90000, #422d4d);
+  background: -o-linear-gradient(to left, #b90000, #422d4d);
+  background: -moz-linear-gradient(to left, #b90000, #422d4d);
+  background: linear-gradient(to left, #b90000, #422d4d);
 }
 
 .text-center {
